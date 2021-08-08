@@ -12,7 +12,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 public class GoogleSearchStepDefinitions {
 
     @Cuando("^(.*) busca (.*) en Google Search$")
-    public void BuscaEnGoogleSearch(String actor, String palabra) {
+    public void buscaEnGoogleSearch(String actor, String palabra) {
         theActorCalled(actor).attemptsTo(
                 BuscarEnGoogle.laPalabra(palabra)
         );

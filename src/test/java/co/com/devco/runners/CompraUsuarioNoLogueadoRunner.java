@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/buscar_login.feature",
+		features = "src/test/resources/features/compra_usuario_no_logueado.feature",
 		glue = {"co.com.devco.stepdefinitions"},
 		snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class BuscarLoginRunner {
+public class CompraUsuarioNoLogueadoRunner {
 
 }
